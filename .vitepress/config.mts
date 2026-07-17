@@ -9,7 +9,7 @@ export default defineConfig({
   srcExclude: ['README.md', 'SKILL.md', 'CONSOLIDATED.md'],
 
   head: [
-    ['link', { rel: 'icon', href: '/xuzhuoxun-AI/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.jpg' }]
   ],
 
   themeConfig: {
