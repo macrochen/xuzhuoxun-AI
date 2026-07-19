@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: '徐倬迅 · A股思维框架',
   description: '徐倬迅的A股实战思维操作系统 — 14个核心心智模型、12条决策启发式、完整交易心理学',
-  base: '/',
+  base: process.env.GITHUB_ACTIONS ? '/xuzhuoxun-AI/' : '/',
   lastUpdated: true,
   cleanUrls: true,
   srcExclude: ['README.md', 'SKILL.md', 'CONSOLIDATED.md'],
